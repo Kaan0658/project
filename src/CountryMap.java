@@ -12,8 +12,7 @@ public class CountryMap {
     public int CE = 40;
     public int DE = 10;
     public int AE;
-
-    public int kaan;
+    
 
 }
 
