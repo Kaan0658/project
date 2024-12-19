@@ -14,9 +14,7 @@ public class CountryMap {
         String handler = fileArray[3];
         String[] control = handler.split(" ");
         String firstPath = control[0];
-        System.out.println(firstPath);
         String secondPath = control[1];
-        System.out.println(secondPath);
         if (firstPath.equals(secondPath)) {
             System.out.println("Format is wrong they are same");
             System.out.println("Line 4");
@@ -40,7 +38,6 @@ public class CountryMap {
         }
         try{
             int firstNumber = Integer.parseInt(firstNumberString);
-            System.out.println(firstNumber);
         }
         catch (NumberFormatException err){
             if (!checkEmpty) {
@@ -48,7 +45,6 @@ public class CountryMap {
                 checkFirstLine = false;
             }
             else {
-                System.out.println(firstNumberString);
                 checkFirstLine = false;
             }
         }
